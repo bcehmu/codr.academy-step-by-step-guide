@@ -98,5 +98,3 @@ config.assets.initialize_on_precompile = false
 ```ruby
 /^([a-z]{1,30}){1}([]{1}[a-z]{1,30}){,1}([]{1}[a-z]{1,30}){,1}\Z/
 ```
-
-<!-- (lowercase, snake_case, at most 3 words sperated by underscore '_', each word at most 30 letters) -->
