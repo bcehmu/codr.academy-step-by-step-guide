@@ -92,3 +92,9 @@ config/environments/production.rb
 config.assets.initialize_on_precompile = false
   config.assets.compile = true
 ```
+
+## VerbalMark normalization
+
+```ruby
+/^([a-z]{1,30}){1}([]{1}[a-z]{1,30}){,1}([]{1}[a-z]{1,30}){,1}\Z/
+```
